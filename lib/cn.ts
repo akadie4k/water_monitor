@@ -1,0 +1,4 @@
+/** ต่อ className โดยข้ามค่าที่เป็น false/null/undefined */
+export function cn(...parts: Array<string | false | null | undefined>): string {
+  return parts.filter(Boolean).join(" ");
+}
