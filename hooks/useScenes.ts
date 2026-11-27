@@ -4,7 +4,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { api } from "@/lib/api";
 import { MIN_CLEAR_FRAC } from "@/lib/indices";
 import type { Aoi, Scene, SceneStore } from "@/lib/types";
-import type { StatusTone } from "@/components/ui/StatusBanner";
+
+export type StatusTone = "progress" | "error";
 
 export interface Status {
   tone: StatusTone;

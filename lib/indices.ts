@@ -1,5 +1,3 @@
-import type { BadgeTone } from "@/components/ui/Badge";
-
 import type { OverlayKind, Scene } from "./types";
 
 export type RampKind = Exclude<OverlayKind, "truecolor">;
@@ -62,8 +60,11 @@ export function clearPct(clearFrac: number): number {
   return Math.round(clearFrac * 100);
 }
 
-/** สีป้าย % โปร่ง: น้ำเงิน ≥70, เหลืองอำพัน 30–69, แดง <30 */
-export function clearTone(pct: number): BadgeTone {
+/** ระดับสถานะ: good = น้ำเงิน, warn = อำพัน, bad = แดง */
+export type Tone = "good" | "warn" | "bad";
+
+/** สถานะ % โปร่ง: ≥70 good, 30–69 warn, <30 bad */
+export function clearTone(pct: number): Tone {
   if (pct >= 70) return "good";
   if (pct >= 30) return "warn";
   return "bad";
@@ -71,4 +72,17 @@ export function clearTone(pct: number): BadgeTone {
 
 export function fmtIndex(v: number | null | undefined, digits = 3): string {
   return v == null || Number.isNaN(v) ? "–" : v.toFixed(digits);
+}
+
+/** สีบนสเกลของดัชนี ณ ค่า v (ไล่สีเชิงเส้นระหว่างจุดใน palette) — ใช้ระบายแถบวันที่ */
+export function rampColor(ramp: IndexRamp, v: number): string {
+  const p = ramp.palette;
+  const t = Math.min(1, Math.max(0, (v - ramp.min) / (ramp.max - ramp.min))) * (p.length - 1);
+  const i = Math.min(p.length - 2, Math.floor(t));
+  const f = t - i;
+  const hex = (s: string) => [1, 3, 5].map((k) => parseInt(s.slice(k, k + 2), 16));
+  const a = hex(p[i]);
+  const b = hex(p[i + 1]);
+  const c = a.map((x, k) => Math.round(x + (b[k] - x) * f));
+  return `rgb(${c[0]} ${c[1]} ${c[2]})`;
 }

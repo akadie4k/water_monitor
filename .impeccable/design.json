@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-26T14:05:33.259Z",
+  "title": "Design System: Smart Water Buoy",
+  "extensions": {
+    "colorMeta": {
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Sheet",
+        "canonical": "#fafaf7",
+        "tonalRamp": [
+          "#2c2c21",
+          "#525233",
+          "#747449",
+          "#97975e",
+          "#b1b181",
+          "#c8c8a7",
+          "#e0e0cd",
+          "#f4f4f0"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#999999",
+          "#b8b8b8",
+          "#d6d6d6",
+          "#f2f2f2"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#15181c",
+        "tonalRamp": [
+          "#23262a",
+          "#39414c",
+          "#515c6c",
+          "#69788c",
+          "#8a97a8",
+          "#adb6c2",
+          "#d0d5dc",
+          "#f1f2f3"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Body",
+        "canonical": "#2b2f35",
+        "tonalRamp": [
+          "#242629",
+          "#3b4149",
+          "#555c68",
+          "#6e7887",
+          "#8e97a4",
+          "#b0b6bf",
+          "#d2d5da",
+          "#f1f2f3"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#5a5f66",
+        "tonalRamp": [
+          "#252628",
+          "#3e4246",
+          "#585d64",
+          "#737982",
+          "#93989f",
+          "#b3b7bc",
+          "#d4d6d9",
+          "#f2f2f3"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#d6d3cb",
+        "tonalRamp": [
+          "#292724",
+          "#4a463a",
+          "#6a6353",
+          "#89816c",
+          "#a59e8d",
+          "#c0bbaf",
+          "#dbd8d1",
+          "#f3f3f1"
+        ]
+      },
+      "rule-soft": {
+        "role": "neutral",
+        "displayName": "Rule Soft",
+        "canonical": "#e9e6df",
+        "tonalRamp": [
+          "#2a2822",
+          "#4f4736",
+          "#70654d",
+          "#918364",
+          "#aca186",
+          "#c5bdaa",
+          "#ded9cf",
+          "#f4f3f1"
+        ]
+      },
+      "hover": {
+        "role": "neutral",
+        "displayName": "Hover",
+        "canonical": "#f4f2ec",
+        "tonalRamp": [
+          "#2c2920",
+          "#544b31",
+          "#786b45",
+          "#9b8b5a",
+          "#b4a77e",
+          "#cbc1a5",
+          "#e1dccb",
+          "#f4f3f0"
+        ]
+      },
+      "hydro": {
+        "role": "primary",
+        "displayName": "Hydrographic Blue",
+        "canonical": "#1a5fb4",
+        "tonalRamp": [
+          "#152437",
+          "#113d74",
+          "#1857a5",
+          "#1f71d6",
+          "#4d91e5",
+          "#82b2ed",
+          "#b8d3f5",
+          "#edf2f8"
+        ]
+      },
+      "hydro-hover": {
+        "role": "primary",
+        "displayName": "Deep Hydro",
+        "canonical": "#144c91",
+        "tonalRamp": [
+          "#152438",
+          "#103d75",
+          "#1757a6",
+          "#1e71d7",
+          "#4c91e6",
+          "#82b2ee",
+          "#b7d3f5",
+          "#ecf2f8"
+        ]
+      },
+      "hydro-tint": {
+        "role": "primary",
+        "displayName": "Hydro Tint",
+        "canonical": "#e3edf8",
+        "tonalRamp": [
+          "#182634",
+          "#1b406a",
+          "#265c97",
+          "#3177c4",
+          "#5c96d6",
+          "#8db6e2",
+          "#bed5ef",
+          "#eef2f7"
+        ]
+      },
+      "sienna": {
+        "role": "secondary",
+        "displayName": "Contour Sienna",
+        "canonical": "#8e4f22",
+        "tonalRamp": [
+          "#342418",
+          "#6b3c1a",
+          "#985524",
+          "#c66e2f",
+          "#d88f5a",
+          "#e3b08c",
+          "#efd2bd",
+          "#f7f1ee"
+        ]
+      },
+      "good": {
+        "role": "tertiary",
+        "displayName": "Good (same as Hydro)",
+        "canonical": "#1a5fb4",
+        "tonalRamp": [
+          "#152437",
+          "#113d74",
+          "#1857a5",
+          "#1f71d6",
+          "#4d91e5",
+          "#82b2ed",
+          "#b8d3f5",
+          "#edf2f8"
+        ]
+      },
+      "warn": {
+        "role": "tertiary",
+        "displayName": "Survey Amber",
+        "canonical": "#9a5800",
+        "tonalRamp": [
+          "#3d2a0f",
+          "#854c00",
+          "#bd6c00",
+          "#f58c00",
+          "#ffa833",
+          "#ffc270",
+          "#ffdcad",
+          "#faf3eb"
+        ]
+      },
+      "warn-fill": {
+        "role": "tertiary",
+        "displayName": "Amber Fill",
+        "canonical": "#f2a93b",
+        "tonalRamp": [
+          "#3a2a12",
+          "#7c4e08",
+          "#b16f0c",
+          "#e6900f",
+          "#f2ab40",
+          "#f6c479",
+          "#faddb2",
+          "#f9f4ec"
+        ]
+      },
+      "warn-tint": {
+        "role": "tertiary",
+        "displayName": "Amber Note",
+        "canonical": "#fdf3e1",
+        "tonalRamp": [
+          "#3a2c12",
+          "#7c5308",
+          "#b1760c",
+          "#e6990f",
+          "#f2b240",
+          "#f6c979",
+          "#fae0b2",
+          "#f9f4ec"
+        ]
+      },
+      "bad": {
+        "role": "tertiary",
+        "displayName": "Survey Red",
+        "canonical": "#b42318",
+        "tonalRamp": [
+          "#381715",
+          "#751710",
+          "#a72016",
+          "#d82a1d",
+          "#e7564b",
+          "#ee8981",
+          "#f5bbb7",
+          "#f8edec"
+        ]
+      },
+      "bad-tint": {
+        "role": "tertiary",
+        "displayName": "Red Note",
+        "canonical": "#fcecea",
+        "tonalRamp": [
+          "#371915",
+          "#741c11",
+          "#a52718",
+          "#d6331f",
+          "#e65e4c",
+          "#ed8e82",
+          "#f5beb8",
+          "#f8eeed"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Selected scene date atop the margin column; one per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Sheet title 'Walailak Botanic Park'."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section headings for the scene index and buoy-point chart."
+      },
+      "title-margin": {
+        "displayName": "Margin Title",
+        "purpose": "Sienna section headings inside the margin column."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base reading text; controls and header name at weight 500."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Meta lines, filters, counts, chart notes; usually muted."
+      },
+      "value": {
+        "displayName": "Value",
+        "purpose": "Buoy-point readings in the margin value grid, tabular figures."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Value-cell labels, legend scale, units, tags, caveat notes."
+      },
+      "collar": {
+        "displayName": "Collar",
+        "purpose": "Graticule tick figures and the scale bar, sienna Bai Jamjuree."
+      }
+    },
+    "shadows": [
+      {
+        "name": "map-popup",
+        "value": "0 10px 24px -10px rgb(21 24 28 / 0.45)",
+        "purpose": "Buoy speech-bubble popup floating over the map."
+      },
+      {
+        "name": "toast",
+        "value": "0 8px 20px -10px rgb(21 24 28 / 0.5)",
+        "purpose": "Transient toasts floating at the bottom of the viewport."
+      },
+      {
+        "name": "label-halo",
+        "value": "text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 6px #fff",
+        "purpose": "Cartographic white halo behind map lettering; not elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Default easing for state and feedback motion (token --ease-out-expo)."
+      },
+      {
+        "name": "state",
+        "value": "150ms",
+        "purpose": "Colour and background transitions on buttons, rows, map controls."
+      },
+      {
+        "name": "pin-scale",
+        "value": "200ms ease-out-expo",
+        "purpose": "Buoy pin scales to 1.15 on hover or open."
+      },
+      {
+        "name": "toast-in",
+        "value": "220ms ease-out-expo",
+        "purpose": "Toast rises 8px and fades in."
+      },
+      {
+        "name": "barcode-cursor",
+        "value": "300ms ease-out",
+        "purpose": "Barcode selection cursor glides to the new scene."
+      },
+      {
+        "name": "shake",
+        "value": "360ms ease-in-out",
+        "purpose": "Refresh button shake on failure."
+      },
+      {
+        "name": "droplet",
+        "value": "800ms ease-out-expo",
+        "purpose": "Ten droplets scatter from the refresh icon when new scenes arrive."
+      },
+      {
+        "name": "wash",
+        "value": "900ms ease-out-expo",
+        "purpose": "One hydro-tint wash over the margin values per scene change."
+      },
+      {
+        "name": "buoy-ripple",
+        "value": "3.2s ease-out infinite, second ring delayed 1.6s",
+        "purpose": "Ambient ripple around the buoy pin; hidden under reduced motion."
+      },
+      {
+        "name": "time-lapse-step",
+        "value": "1500ms",
+        "purpose": "Barcode play interval per scene; play disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "container-max",
+        "value": "1520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button (Refresh)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single primary action: pull new scenes from Earth Engine.",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 512 512\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M192 32c0-17.7 14.3-32 32-32C383.1 0 512 128.9 512 288c0 17.7-14.3 32-32 32s-32-14.3-32-32C448 164.3 347.7 64 224 64c-17.7 0-32-14.3-32-32zM60.6 220.6L164.7 324.7l28.4-28.4c-.7-2.6-1.1-5.4-1.1-8.3c0-17.7 14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32c-2.9 0-5.6-.4-8.3-1.1l-28.4 28.4L291.4 451.4c14.5 14.5 11.8 38.8-7.3 46.3C260.5 506.9 234.9 512 208 512C93.1 512 0 418.9 0 304c0-26.9 5.1-52.5 14.4-76.1c7.5-19 31.8-21.8 46.3-7.3z\"/></svg>ดึงภาพใหม่</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 16px;border:1.5px solid var(--color-hydro,#1a5fb4);background:var(--color-hydro,#1a5fb4);color:#fff;font:500 15px/1.6 'Noto Sans Thai',system-ui,sans-serif;border-radius:0;cursor:pointer;transition:background-color 150ms,transform 150ms}.ds-btn-primary:hover{background:var(--color-hydro-hover,#144c91)}.ds-btn-primary:active{transform:scale(.97)}.ds-btn-primary:focus-visible{outline:2px solid var(--color-hydro,#1a5fb4);outline-offset:2px}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary actions such as play time-lapse and retry; fills hydro while playing.",
+      "html": "<button class=\"ds-btn-outline\" aria-pressed=\"false\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 384 512\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z\"/></svg>เล่นไล่ภาพ</button>",
+      "css": ".ds-btn-outline{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 12px;border:1px solid var(--color-ink,#15181c);background:var(--color-paper,#fff);color:var(--color-ink,#15181c);font:500 14px/1.6 'Noto Sans Thai',system-ui,sans-serif;border-radius:0;cursor:pointer;transition:background-color 150ms}.ds-btn-outline:hover{background:var(--color-hover,#f4f2ec)}.ds-btn-outline:focus-visible{outline:2px solid var(--color-hydro,#1a5fb4);outline-offset:2px}.ds-btn-outline[aria-pressed=true]{background:var(--color-hydro,#1a5fb4);border-color:var(--color-hydro,#1a5fb4);color:#fff}"
+    },
+    {
+      "name": "Segmented Basemap",
+      "kind": "chip",
+      "refersTo": "segmented-on",
+      "description": "Two-cell square radio group in an ink box; selected cell is solid ink.",
+      "html": "<div class=\"ds-seg\" role=\"radiogroup\" aria-label=\"แผนที่ฐาน\"><button role=\"radio\" aria-checked=\"true\">แผนที่ถนน</button><button role=\"radio\" aria-checked=\"false\">ภาพถ่ายดาวเทียม</button></div>",
+      "css": ".ds-seg{display:grid;grid-template-columns:1fr 1fr;width:320px;border:1px solid var(--color-ink,#15181c)}.ds-seg button{min-height:40px;border:0;background:var(--color-paper,#fff);color:var(--color-ink,#15181c);font:400 13px 'Noto Sans Thai',system-ui,sans-serif;cursor:pointer;transition:background-color 150ms}.ds-seg button+button{border-left:1px solid var(--color-ink,#15181c)}.ds-seg button:hover{background:var(--color-hover,#f4f2ec)}.ds-seg button[aria-checked=true]{background:var(--color-ink,#15181c);color:#fff}.ds-seg button:focus-visible{outline:2px solid var(--color-hydro,#1a5fb4);outline-offset:2px}"
+    },
+    {
+      "name": "Estimate Tag",
+      "kind": "chip",
+      "refersTo": "tag-estimate",
+      "description": "Marks a formula-estimated, uncalibrated layer.",
+      "html": "<span class=\"ds-tag\">ประมาณ</span>",
+      "css": ".ds-tag{display:inline-block;border:1px solid var(--color-rule,#d6d3cb);padding:0 6px;font:400 12px/20px 'Noto Sans Thai',system-ui,sans-serif;color:var(--color-sienna,#8e4f22);border-radius:0}"
+    },
+    {
+      "name": "Layer Radio Row",
+      "kind": "input",
+      "refersTo": "panel",
+      "description": "Full-row 44px radio with data-ramp swatch; hover tint, medium weight when checked.",
+      "html": "<div class=\"ds-layers\"><label class=\"ds-layer\"><input type=\"radio\" name=\"ds-l\" checked><span class=\"ds-sw\"></span><span>NDTI ดัชนีความขุ่น</span></label><label class=\"ds-layer\"><input type=\"radio\" name=\"ds-l\"><span class=\"ds-sw\"></span><span>ความขุ่นโดยประมาณ (FNU)</span><span class=\"ds-tag\">ประมาณ</span></label></div>",
+      "css": ".ds-layers{width:320px}.ds-layer{display:flex;align-items:center;gap:12px;min-height:44px;padding:0 8px;font:400 14px 'Noto Sans Thai',system-ui,sans-serif;color:var(--color-ink,#15181c);cursor:pointer;transition:background-color 150ms}.ds-layer:hover{background:var(--color-hover,#f4f2ec)}.ds-layer:has(input:checked){font-weight:500}.ds-layer input{accent-color:var(--color-hydro,#1a5fb4);width:16px;height:16px;margin:0}.ds-layer input:focus-visible{outline:2px solid var(--color-hydro,#1a5fb4);outline-offset:2px}.ds-sw{flex:none;width:28px;height:10px;border:1px solid rgb(21 24 28/.25);background:linear-gradient(90deg,#2c7bb6,#abd9e9,#ffffbf,#fdae61,#a6611a)}.ds-tag{margin-left:auto;border:1px solid var(--color-rule,#d6d3cb);padding:0 6px;font-size:12px;line-height:20px;font-weight:400;color:var(--color-sienna,#8e4f22)}"
+    },
+    {
+      "name": "Margin Panel with Value Grid",
+      "kind": "card",
+      "refersTo": "value-cell",
+      "description": "Square paper panel: display date, sky line, 2x2 hairline value grid.",
+      "html": "<section class=\"ds-panel\"><h2 class=\"ds-date\">16 พฤศจิกายน 2569</h2><p class=\"ds-meta\">Sentinel-2 · 10:55 น. · <b>ฟ้าโปร่ง 100%</b></p><dl class=\"ds-grid\"><div><dt>NDTI</dt><dd>-0.244</dd></div><div><dt>ความขุ่น ≈</dt><dd>12.6<small>FNU</small></dd></div><div><dt>NDCI</dt><dd>0.073</dd></div><div><dt>คลอโรฟิลล์-a ≈</dt><dd>21.4<small>µg/L</small></dd></div></dl></section>",
+      "css": ".ds-panel{width:320px;padding:20px;background:var(--color-paper,#fff);border:1px solid var(--color-rule,#d6d3cb);border-radius:0;font-family:'Noto Sans Thai',system-ui,sans-serif}.ds-date{margin:0;font:600 30px/1.25 'Bai Jamjuree','Noto Sans Thai',system-ui,sans-serif;color:var(--color-ink,#15181c)}.ds-meta{margin:4px 0 0;font-size:13px;color:var(--color-muted,#5a5f66)}.ds-meta b{font-weight:500;color:var(--color-hydro,#1a5fb4)}.ds-grid{margin:16px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--color-rule-soft,#e9e6df);border:1px solid var(--color-rule-soft,#e9e6df)}.ds-grid div{background:var(--color-paper,#fff);padding:8px 12px}.ds-grid dt{font-size:12px;color:var(--color-muted,#5a5f66)}.ds-grid dd{margin:0;font-size:18px;font-weight:600;color:var(--color-ink,#15181c);font-variant-numeric:tabular-nums}.ds-grid small{margin-left:4px;font-size:12px;font-weight:500;color:var(--color-muted,#5a5f66)}"
+    },
+    {
+      "name": "Map Control Stack",
+      "kind": "custom",
+      "refersTo": "map-control",
+      "description": "Square 40px zoom stack in an ink box; hydro tint on hover, hydro on press.",
+      "html": "<div class=\"ds-mapctl\"><button aria-label=\"ซูมเข้า\">+</button><button aria-label=\"ซูมออก\">−</button></div>",
+      "css": ".ds-mapctl{display:inline-flex;flex-direction:column;border:1px solid var(--color-ink,#15181c);background:var(--color-paper,#fff)}.ds-mapctl button{width:40px;height:40px;border:0;background:transparent;color:var(--color-ink,#15181c);font:500 18px 'Bai Jamjuree','Noto Sans Thai',system-ui,sans-serif;cursor:pointer;transition:background-color 150ms,color 150ms}.ds-mapctl button+button{border-top:1px solid var(--color-rule,#d6d3cb)}.ds-mapctl button:hover{background:var(--color-hydro-tint,#e3edf8);color:var(--color-hydro,#1a5fb4)}.ds-mapctl button:active{background:var(--color-hydro,#1a5fb4);color:#fff}.ds-mapctl button:focus-visible{outline:2px solid var(--color-hydro,#1a5fb4);outline-offset:2px}"
+    },
+    {
+      "name": "Survey Collar",
+      "kind": "custom",
+      "refersTo": "panel",
+      "description": "Signature: neatline frame with ink graticule ticks and sienna DMS figures around the map.",
+      "html": "<div class=\"ds-collar\"><div class=\"ds-edge\"><i style=\"left:22%\"><b>52'30\"</b></i><i style=\"left:58%\"><b>52'40\"</b></i><s style=\"left:40%\"></s></div><div class=\"ds-map\"></div></div>",
+      "css": ".ds-collar{width:360px;padding:0 12px 12px 48px;border:1.5px solid var(--color-ink,#15181c);background:var(--color-paper,#fff)}.ds-edge{position:relative;height:26px;border-bottom:1px solid var(--color-ink,#15181c);font:500 11px 'Bai Jamjuree','Noto Sans Thai',system-ui,sans-serif;color:var(--color-sienna,#8e4f22)}.ds-edge i{position:absolute;bottom:0;width:1px;height:7px;background:var(--color-ink,#15181c)}.ds-edge b{position:absolute;bottom:9px;left:50%;transform:translateX(-50%);white-space:nowrap;font-weight:500}.ds-edge s{position:absolute;top:0;bottom:0;width:3px;margin-left:-1px;background:var(--color-hydro,#1a5fb4)}.ds-map{height:160px;border:1px solid var(--color-ink,#15181c);border-top:0;background:var(--color-rule-soft,#e9e6df)}"
+    },
+    {
+      "name": "Toast",
+      "kind": "custom",
+      "refersTo": "panel",
+      "description": "Transient square notice with ink neatline and the floating toast shadow.",
+      "html": "<div class=\"ds-toast\"><svg class=\"ds-ok\" width=\"16\" height=\"16\" viewBox=\"0 0 512 512\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"/></svg><span>ได้ภาพใหม่ 2 ภาพ</span></div>",
+      "css": ".ds-toast{display:inline-flex;align-items:center;gap:12px;padding:10px 16px;border:1.5px solid var(--color-ink,#15181c);background:var(--color-paper,#fff);color:var(--color-ink,#15181c);font:400 14px 'Noto Sans Thai',system-ui,sans-serif;box-shadow:0 8px 20px -10px rgb(21 24 28/.5);border-radius:0}.ds-ok{color:var(--color-good,#1a5fb4)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Survey Sheet (ระวางแผนที่)",
+    "overview": "The pond is read like a Royal Thai Survey topographic map sheet. The map sits inside a neatline collar whose graticule ticks follow the live map and light up under the cursor; a margin column beside it carries the sheet's marginal information (which scene, what values, which layer); an index below lists every pass. Everything is drawn in two inks on paper: near-black ink for neatlines and headings, hydrographic blue for water and for whatever the researcher has selected, with contour sienna as the cartographer's second ink for collar figures and margin headings.\n\nDensity is that of a working instrument, not a marketing page: hairline rules, tabular figures, square corners, flat paper. Warmth comes from motion and voice rather than decoration: the buoy pin ripples, it greets you in a speech-bubble popup, a fresh Earth Engine pull scatters a few droplets, and the values panel washes blue once when the scene changes. All of it is short, exponential ease-out, and disappears under reduced motion.\n\nIt refuses the generic card-grid GIS dashboard with floating glass panels: panels are bordered paper on a paper ground, not lifted cards.",
+    "keyCharacteristics": [
+      "Two inks on paper: ink neatlines (1.5px) and hairline rules, hydro blue for water and selection.",
+      "Square corners everywhere except true point marks (buoy pin, avatar).",
+      "Flat by default; only floating layers over the map or page cast a shadow.",
+      "Drafting-room type (Bai Jamjuree) for headings, coordinates and figures; Noto Sans Thai with tabular figures for reading and numbers.",
+      "Status speaks blue / amber / red; no green, purple or teal in UI chrome.",
+      "Friendly micro-motion, always expo ease-out, always off under `prefers-reduced-motion`."
+    ],
+    "rules": [
+      {
+        "name": "The Two Inks Rule",
+        "body": "Chrome is ink and hydro on paper. Sienna marks figures and margin headings; amber and red appear only when a value is actually in a warn or bad state.",
+        "section": "colors"
+      },
+      {
+        "name": "The No-Green Chrome Rule",
+        "body": "No green, purple or teal anywhere in UI chrome; good is blue. Data ramps in `lib/indices.ts` are exempt because they must match the backend's GEE `VIS` palettes, and the chlorophyll ramp contains greens. Ramps render only inside the map overlay, the legend bar and the layer-swatch chips.",
+        "section": "colors"
+      },
+      {
+        "name": "The On-Tint Ink Rule",
+        "body": "Text set on a tint uses a darker ink of the same hue for AA contrast (deep red on bad-tint, deep blue on hydro-tint, deep amber on warn-tint), never the base status colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Every number that can change (values, percentages, counts, coordinates) is set with tabular figures so columns and readouts do not jitter.",
+        "section": "typography"
+      },
+      {
+        "name": "The Drafting Hand Rule",
+        "body": "Bai Jamjuree is for headings, coordinates, table headers, the legend title and empty-state titles. Paragraphs and table cells stay in Noto Sans Thai.",
+        "section": "typography"
+      },
+      {
+        "name": "The Neatline Rule",
+        "body": "A box earns weight by its stroke, not its shadow: 1.5px ink for the primary sheet, header base, popups, toasts and table header; 1px rule for secondary panels.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Floating-Only Shadow Rule",
+        "body": "A shadow means \"this floats over something else\" (popup, toast). In-flow panels, cards and controls never cast one.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** take every colour from the `@theme static` tokens in `app/globals.css`; JS libraries (ECharts, MapLibre) read them through `lib/theme.ts`.",
+      "**Do** frame the primary surface with a 1.5px ink neatline and everything secondary with a 1px rule.",
+      "**Do** use hydro for anything selected, focused or \"good\", and keep it the only fill colour on buttons.",
+      "**Do** set changing numbers in tabular figures and coordinates/figures in Bai Jamjuree.",
+      "**Do** mark every formula-estimated value with \"≈\" or the \"ประมาณ\" tag and keep its caveat visible.",
+      "**Do** use the expo ease-out (`cubic-bezier(0.16, 1, 0.3, 1)`) for motion and keep durations between 150ms and 900ms, except the ambient buoy ripple.",
+      "**Do** route every icon through the `Icon` component with a name registered in `lib/icons.ts`."
+    ],
+    "donts": [
+      "**Don't** use green, purple or teal in UI chrome; data ramps are the only exception.",
+      "**Don't** round corners on panels, buttons, tags or popups; circles are only for the buoy pin and the avatar.",
+      "**Don't** put shadows on in-flow panels or cards; shadows belong only to the map popup and toasts.",
+      "**Don't** use emoji or Unicode glyphs as icons.",
+      "**Don't** add a navigation menu, tabs or anything else to the header beyond the logo slot and the user.",
+      "**Don't** ship motion that survives `prefers-reduced-motion`."
+    ]
+  }
+}
